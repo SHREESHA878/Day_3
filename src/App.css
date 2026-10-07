@@ -1,0 +1,32 @@
+import './App.css'
+
+function App() {
+  return (
+    <div className="app">
+      <header className="header">
+        <h1>React DevOps Demo</h1>
+        <p>Deployed on AWS EC2 | Day_3 Task</p>
+      </header>
+
+      <div className="card">
+        <h2>✅ App is Running!</h2>
+        <p>This React app is successfully running on EC2 Instance</p>
+        
+        <div className="info-box">
+          <p><b>Project:</b> docker_react_demo</p>
+          <p><b>Environment:</b> Production / EC2</p>
+          <p><b>Status:</b> Live 🟢</p>
+        </div>
+
+        <button className="btn" onClick={() => alert("DevOps Working! - Shreesha")}>
+          Test Button
+        </button>
+      </div>
+
+      <footer className="footer">
+        <p>Created by Shreesha | Viva Ready - Day 3</p>
+      </footer>
+    </div>
+  )
+}
+export default App
